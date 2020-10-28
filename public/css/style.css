@@ -1,0 +1,49 @@
+.wrapper{
+    display:grid;
+    grid-template-columns: 20% 80%;
+    /* background:black; */
+}
+
+.wrapper aside{
+    /* padding-top:20px; */
+    /* background:gray; */
+    height:100%;
+    /* border:1px solid black; */
+    /* text-align: center; */
+    justify-content: left;
+    border-right: 1px solid black;
+    
+}
+
+.wrapper aside a{
+    text-decoration: none;
+    color:black;
+}
+@media(max-width:786px){
+    .wrapper{
+        display:block;
+        
+    }
+
+    .wrapper aside {
+        display:none;
+    }
+}
+
+
+
+
+
+/* profile page  */
+
+.avator{
+    width:20%;
+    width: 20%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avator img{
+    width:100%;
+    height: 100%;
+}
